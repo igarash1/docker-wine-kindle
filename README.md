@@ -11,10 +11,6 @@ NOTICE: This image was developed for Japanese users.
 1. Next, build the image (This will take some minutes.)
     ```shell
     $ bash ./builder.sh
-    ``` 
-1. Open your display
-    ```shell
-    xhost +
     ```
 1. Run the docker image and get into the docker container.
     ```shell
@@ -27,6 +23,7 @@ NOTICE: This image was developed for Japanese users.
 1.  Sign in to your Amazon account.
     ![](images/kindle_sign_in.png)
 1. You can now read your Kindle books :tada:
+    ![](images/kindle_reading.png)
 
 ## Usage
 
