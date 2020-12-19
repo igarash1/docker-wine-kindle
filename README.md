@@ -1,6 +1,7 @@
 # Kindle on Linux, without messing up your environment!
 
 NOTICE: This image was developed for Japanese users.
+NOTICE: doesn't support for data persistence ([issue#2](https://github.com/igarash1/docker-wine-kindle/issues/2)). Welcome your contributions.
 
 ## Installation
 
@@ -36,3 +37,10 @@ wine@... $ wine '/home/wine/.wine/drive_c/Program Files/Amazon/Kindle/Kindle.exe
 
 ## Note
 If you want to run it on Mac, you have to install Xquartz.
+
+## Acknowledment
+Many thanks to
+
+- [scottyhardy/docker-wine](https://github.com/scottyhardy/docker-wine)
+- [webanck/docker-wine-steam](https://github.com/webanck/docker-wine-steam)
+- [igjit/docker-kindle](https://github.com/igjit/docker-kindle)
