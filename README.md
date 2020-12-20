@@ -1,7 +1,8 @@
 # Kindle on Linux, without messing up your environment!
 
-NOTICE: This image was developed for Japanese users.
-NOTICE: doesn't support for data persistence ([issue#2](https://github.com/igarash1/docker-wine-kindle/issues/2)). Welcome your contributions.
+NOTICE: 
+- This image was developed for Japanese users.
+- Currently, doesn't support for data persistence ([issue#2](https://github.com/igarash1/docker-wine-kindle/issues/2)) since just adding `wine` foloder to VOLUME didn't work for me. Welcome your contributions.
 
 ## Installation
 
